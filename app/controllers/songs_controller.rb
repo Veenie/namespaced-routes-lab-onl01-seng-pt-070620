@@ -31,8 +31,6 @@ class SongsController < ApplicationController
     else
       redirect_to songs_path
     end 
-
-    end
   end
 
   def create
